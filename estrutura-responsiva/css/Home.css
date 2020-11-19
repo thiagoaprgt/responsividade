@@ -1,0 +1,267 @@
+
+@media screen and (min-width: 400px) {
+
+    body {
+        
+        border: solid 2px;
+        border-color: green;
+        text-align: center;
+        margin: auto;
+    }
+
+    nav {
+
+        display: inline-flex;
+    }
+
+    nav div {
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    a {
+
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        
+        color: red;
+        text-decoration: underline;
+    }
+
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        
+    }
+
+    .dropdown-content {
+
+        display: none;  
+        position: absolute;    
+        z-index: 1;     
+        
+        background-color: #f3f3f3;              
+        box-shadow: 0px 5px 5px 0px
+        
+    }
+
+    .dropdown-content a{
+
+        display: block;  
+         
+        
+    }
+
+    
+
+    .dropdown:hover {
+
+        color: royalblue;
+        
+        
+    }
+
+    .dropdown:hover .dropdown-content {
+
+        
+        color:black;        
+        display: block;        
+
+    }
+
+          
+     
+
+}
+
+
+@media screen and (max-width: 399px) and (min-width: 351px)  {
+
+    body {
+        
+        border: solid 2px;
+        border-color: red;
+        text-align: center;
+        margin: auto;
+    }
+
+
+    nav {
+
+        display: inline-flex;
+    }
+
+    nav div {
+
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+       
+        
+        
+    }
+
+    a {
+
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        
+        color: red;
+        text-decoration: underline;
+    }
+
+    .dropdown {
+
+        position: relative;
+        display: inline-block;
+
+       
+        
+    }
+    
+
+    .dropdown-content {
+
+        display: none; 
+        position: absolute;  
+        z-index: 1; 
+
+       
+        
+        background-color: #eeeeee;
+        box-shadow: 0px 1px 1px 0px;
+
+
+        
+    }
+
+    
+
+    .dropdown:hover {
+
+        color: royalblue;
+
+        
+        
+        
+    }
+
+    .dropdown:hover .dropdown-content {
+
+        
+        color:black;        
+        display: block;        
+        
+
+    }
+
+
+    footer {
+        display: inline-flex;
+    }
+
+    footer div {
+
+        padding-left: 15px;
+
+    }
+
+    
+
+}
+
+
+
+@media screen and (max-width: 350px) {
+
+    body {
+       
+        border: solid 2px;
+        border-color: black;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    
+
+
+    nav div  {
+
+        
+        
+        margin: 5px;  
+
+        
+    }
+
+    
+
+
+    a {
+
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover {
+        
+        color: red;
+        text-decoration: underline;
+    }
+
+
+    .dropdown {
+        border: none;
+    }
+
+       
+
+    .dropdown-content {
+
+        display: none;        
+
+        
+    }
+
+
+    .dropdown-content a {
+
+        display: block;
+    }
+
+    
+
+    .dropdown:hover .dropdown-content {
+
+        display: block;
+
+    }
+
+
+    
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
